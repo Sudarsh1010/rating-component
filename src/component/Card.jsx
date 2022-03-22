@@ -69,7 +69,7 @@ const Card = () => {
               <button
                 onClick={handleSubmit}
               >
-                <p>S U B M I T</p>
+                S U B M I T
               </button>
             </div></>
           : <><div className="thankyou-img">
