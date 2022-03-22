@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Sudarsh1010/rating-component)
-- Live Site URL: [Add live site URL here](https://sudarsh1010.github.io/rating-component/)
+- Solution URL: [Github](https://github.com/Sudarsh1010/rating-component)
+- Live Site URL: [Rating Component](https://sudarsh1010.github.io/rating-component/)
 
 ## My process
 
