@@ -1,0 +1,183 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: #1a212b;
+
+  padding: 2rem;
+  margin: auto;
+
+  width: 26rem;
+  height: 26rem;
+
+  border-radius: 2rem;
+}
+
+.star img {
+  background: #262f38;
+
+  padding: 1rem;
+  border-radius: 50%;
+
+  margin: 0 0 1rem 0;
+}
+
+.card-info h1 {
+  color: white;
+  margin: 0.5rem 0;
+  line-height: 3rem;
+}
+
+.card-info p {
+  color: hsl(217, 12%, 63%);
+  margin: 0.5rem 0;
+  line-height: 1.5rem;
+}
+
+.rating-points {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-points .rating-btn {
+  background: #262f38;
+  color: hsl(217, 12%, 63%);
+
+  width: 3rem;
+  height: 3rem;
+
+  border: none;
+  border-radius: 50%;
+
+  transition: all 0.15s ease-in-out;
+
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.active-btn {
+  background: var(--Orange);
+  color: white;
+
+  width: 3rem;
+  height: 3rem;
+
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.rating-points button:hover {
+  background: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.btn button {
+  margin: 0.5rem 0;
+  width: 100%;
+
+  padding: 0.75rem;
+
+  border: none;
+  border-radius: 1.5rem;
+
+  background: var(--Orange);
+  color: white;
+
+  transition: all 0.2s ease-in-out;
+
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background: white;
+  color: var(--Orange);
+}
+
+.btn button p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* thankyou card */
+.thankyou-img {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating {
+  margin: auto;
+  width: 12.5rem;
+  background: #262f38;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: var(--Orange);
+}
+
+.rating h4 {
+  font-weight: 400;
+}
+
+.thankyou {
+  color: white;
+  text-align: center;
+}
+
+.thankyou-desc {
+  margin: 0.5rem;
+  color: var(--Light-Grey);
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    margin: auto 1.5rem;
+    padding: 1.5rem;
+    height: auto;
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .card-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .card-info p {
+    font-size: 0.888rem;
+  }
+
+  .thankyou-img {
+    margin-top: 0.5rem;
+  }
+
+  .rating {
+    margin: 1.5rem auto;
+  }
+
+  .rating-points button:hover {
+    color: white;
+    background: var(--Orange);
+  }
+
+  .thankyou {
+    margin-top: 0.5rem;
+  }
+
+  .thankyou-desc {
+    /* margin: 0 0.25rem; */
+    font-size: 0.85rem;
+  }
+}
