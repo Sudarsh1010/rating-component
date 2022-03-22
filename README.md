@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Sudarsh1010/rating-component)
-- Live Site URL: [Rating Component](https://sudarsh1010.github.io/rating-component/)
+- Live Site URL: [Rating Component](https://react-rating-component.netlify.app/)
 
 ## My process
 
