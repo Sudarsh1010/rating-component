@@ -89,6 +89,9 @@
 
   border: none;
   border-radius: 1.5rem;
+  
+  font-size: 15px;
+  font-weight: 400;
 
   background: var(--Orange);
   color: white;
@@ -101,11 +104,6 @@
 .btn button:hover {
   background: white;
   color: var(--Orange);
-}
-
-.btn button p {
-  font-size: 15px;
-  font-weight: 400;
 }
 
 /* thankyou card */
